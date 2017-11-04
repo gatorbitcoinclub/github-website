@@ -1,26 +1,23 @@
----
-layout: default
----
+--- layout: default ---
 
 <div class="main-container">
-  <section class="page-title page-title-3 bg-secondary">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <h3 class="uppercase mb0">CONTACT US</h3>
+    <section class="page-title page-title-3 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 class="uppercase mb0">CONTACT US</h3>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
-        <input type="text" class="validate-required" name="name" placeholder="Your Name">
-        <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
-        <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+    </section>
+    <section>
+        <div class="container">
+            <form method="POST" action="http://formspree.io/YOUREMAILHERE" class="form-email">
+                <input type="email" name="email" placeholder="Your email">
+                <textarea name="message" placeholder="Your message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
 </div>
 </section>
 </div>
