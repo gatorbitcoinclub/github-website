@@ -17,7 +17,7 @@ title: Gator Bitcoin Club
 email: felipefaria@me.com
 description: The official website for the University of Florida Bitcoin Club.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gatorbitcoinclub.github.io/website/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gatorbitcoinclub.github.io/github-website/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gatorbitcoinclub
 github_username:  synchronizing
 
@@ -25,7 +25,7 @@ github_username:  synchronizing
 markdown: kramdown
 plugins:
   - jekyll-feed
-  
+
 # Theme
 # Since theme is being loaded with the website, there is no need to load theme here.
 # This is needed since Github Pages won't support custom gem themes.
