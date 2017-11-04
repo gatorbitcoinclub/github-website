@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="post-snippet mb64">
+          <div class="post-title">
+            <span class="label">{{ page.date | date: "%B %-d, %Y" }}</span>
+            <h4 class="inline-block">{{ page.title }}</h4>
+            <hr>
+          </div>
+          {{ content }}
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
